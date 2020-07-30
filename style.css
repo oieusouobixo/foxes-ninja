@@ -1,0 +1,67 @@
+ /* geral */
+* {
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-image: url(./assets/img/logo-foxes-1920.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+picture img{
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* nav */
+.nav-itens {
+    display: block;
+    float: right;
+
+}
+
+#hd-logo {
+    display: block;
+    float: left;
+}
+
+/* topo */
+#topo {
+    background-color: black;
+    opacity: 0.95;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* notícias */
+#noticias {
+    background-color: orange;
+    opacity: 0.95;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    opacity: 0.95;
+}
+
+.redes-sociais {
+    float: right;
+}
