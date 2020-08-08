@@ -8,11 +8,11 @@
     <title>Foxes Ninja | Home</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar" id="home">
-            <a href="#home">
-                <img src="./assets/img/logo-foxes-480.png" alt="logo foxes ninja" id="hd-logo">
-            </a>
+    <header id="home">
+        <a class="logo" href="#home">
+            <img src="./assets/img/logo-foxes-480.png" alt="logo foxes ninja" id="hd-logo">
+        </a>
+        <nav class="navbar">
             <ul>
                 <li>
                     <a href="#home" class="nav-itens">página inicial</a>
@@ -36,90 +36,92 @@
         </nav>
     </header>
     <main>
-        <section id="topo">
-            <div>
-                <picture class="topo" id="main-logo">
-                    <source media="(min-width:600px)"
-                    srcset="./assets/img/logo-foxes-320.png 320w,
-                            ./assets/img/logo-foxes-480.png 480w,
-                            ./assets/img/logo-foxes-720.png 720w,
-                            ./assets/img/logo-foxes-960.png 960w,
-                            ./assets/img/logo-foxes-1440.png 1440w,
-                            ./assets/img/logo-foxes-1920.png 1920w,"
-                    sizes="(max-width: 480px) 240px,
-                           (max-width: 960px) 480px,
-                           (max-width: 1440px) 960px,
-                           1920px" />
-                    <img src="./assets/img/logo-foxes-480.png" alt="logo foxes ninja">
-                </picture>
-            </div>
-            <!-- <div>
-                <picture class="topo" id="main-asrock">
-                    <source media="(min-width:600px)"
-                    srcset="./assets/img/AsRock-320.png 320w,
-                            ./assets/img/AsRock-480.png 480w,
-                            ./assets/img/AsRock-720.png 720w,
-                            ./assets/img/AsRock-960.png 960w,
-                            ./assets/img/AsRock-1440.png 1440w,
-                            ./assets/img/AsRock-1920.png 1920w,"
-                    sizes="(max-width: 480px) 240px,
-                           (max-width: 960px) 480px,
-                           (max-width: 1440px) 960px,
-                           1920px" />
-                    <img src="./assets/img/AsRock-480.png" alt="logo foxes ninja">
-                </picture>
-            </div>
-            <div>
-                <picture class="topo" id="main-bbhost">
-                    <source media="(min-width:600px)"
-                    srcset="./assets/img/bbhost-320.png 320w,
-                            ./assets/img/bbhost-480.png 480w,
-                            ./assets/img/bbhost-720.png 720w,
-                            ./assets/img/bbhost-960.png 960w,
-                            ./assets/img/bbhost-1440.png 1440w,
-                            ./assets/img/bbhost-1920.png 1920w,"
-                    sizes="(max-width: 480px) 240px,
-                           (max-width: 960px) 480px,
-                           (max-width: 1440px) 960px,
-                           1920px" />
-                    <img src="./assets/img/bbhost-480.png" alt="logo foxes ninja">
-                </picture>
-            </div>
-            <div>
-                <picture class="topo" id="main-overclock">
-                    <source media="(min-width:600px)"
-                    srcset="./assets/img/Overclock-320.png 320w,
-                            ./assets/img/Overclock-480.png 480w,
-                            ./assets/img/Overclock-720.png 720w,
-                            ./assets/img/Overclock-960.png 960w,
-                            ./assets/img/Overclock-1440.png 1440w,
-                            ./assets/img/Overclock-1920.png 1920w,"
-                    sizes="(max-width: 480px) 240px,
-                           (max-width: 960px) 480px,
-                           (max-width: 1440px) 960px,
-                           1920px" />
-                    <img src="./assets/img/Overclock-480.png" alt="logo foxes ninja">
-                </picture>
-            </div>
-            <div>
-                <picture class="topo" id="main-pandaplay">
-                    <source media="(min-width:600px)"
-                    srcset="./assets/img/PandaPay-320.png 320w,
-                            ./assets/img/PandaPay-480.png 480w,
-                            ./assets/img/PandaPay-720.png 720w,
-                            ./assets/img/PandaPay-960.png 960w,
-                            ./assets/img/PandaPay-1440.png 1440w,
-                            ./assets/img/PandaPay-1920.png 1920w,"
-                    sizes="(max-width: 480px) 240px,
-                           (max-width: 960px) 480px,
-                           (max-width: 1440px) 960px,
-                           1920px" />
-                    <img src="./assets/img/PandaPay-480.png" alt="logo foxes ninja">
-                </picture>
-            </div> -->
-        </section>
-        <div>
-            <section id="noticias"></section>
+        <div id="topo">
+            <section> 
+                <div>
+                    <picture class="topo" id="main-logo">
+                        <source media="(min-width:600px)"
+                        srcset="./assets/img/logo-foxes-320.png 320w,
+                                ./assets/img/logo-foxes-480.png 480w,
+                                ./assets/img/logo-foxes-720.png 720w,
+                                ./assets/img/logo-foxes-960.png 960w,
+                                ./assets/img/logo-foxes-1440.png 1440w,
+                                ./assets/img/logo-foxes-1920.png 1920w,"
+                        sizes="(max-width: 480px) 240px,
+                               (max-width: 960px) 480px,
+                               (max-width: 1440px) 960px,
+                               1920px" />
+                        <img src="./assets/img/logo-foxes-480.png" alt="logo foxes ninja">
+                    </picture>
+                </div><!--
+                <div>
+                    <picture class="topo" id="main-asrock">
+                        <source media="(min-width:600px)"
+                        srcset="./assets/img/AsRock-320.png 320w,
+                                ./assets/img/AsRock-480.png 480w,
+                                ./assets/img/AsRock-720.png 720w,
+                                ./assets/img/AsRock-960.png 960w,
+                                ./assets/img/AsRock-1440.png 1440w,
+                                ./assets/img/AsRock-1920.png 1920w,"
+                        sizes="(max-width: 480px) 240px,
+                               (max-width: 960px) 480px,
+                               (max-width: 1440px) 960px,
+                               1920px" />
+                        <img src="./assets/img/AsRock-480.png" alt="logo foxes ninja">
+                    </picture>
+                </div>
+                <div>
+                    <picture class="topo" id="main-bbhost">
+                        <source media="(min-width:600px)"
+                        srcset="./assets/img/bbhost-320.png 320w,
+                                ./assets/img/bbhost-480.png 480w,
+                                ./assets/img/bbhost-720.png 720w,
+                                ./assets/img/bbhost-960.png 960w,
+                                ./assets/img/bbhost-1440.png 1440w,
+                                ./assets/img/bbhost-1920.png 1920w,"
+                        sizes="(max-width: 480px) 240px,
+                               (max-width: 960px) 480px,
+                               (max-width: 1440px) 960px,
+                               1920px" />
+                        <img src="./assets/img/bbhost-480.png" alt="logo foxes ninja">
+                    </picture>
+                </div>
+                <div>
+                    <picture class="topo" id="main-overclock">
+                        <source media="(min-width:600px)"
+                        srcset="./assets/img/Overclock-320.png 320w,
+                                ./assets/img/Overclock-480.png 480w,
+                                ./assets/img/Overclock-720.png 720w,
+                                ./assets/img/Overclock-960.png 960w,
+                                ./assets/img/Overclock-1440.png 1440w,
+                                ./assets/img/Overclock-1920.png 1920w,"
+                        sizes="(max-width: 480px) 240px,
+                               (max-width: 960px) 480px,
+                               (max-width: 1440px) 960px,
+                               1920px" />
+                        <img src="./assets/img/Overclock-480.png" alt="logo foxes ninja">
+                    </picture>
+                </div>
+                <div>
+                    <picture class="topo" id="main-pandaplay">
+                        <source media="(min-width:600px)"
+                        srcset="./assets/img/PandaPay-320.png 320w,
+                                ./assets/img/PandaPay-480.png 480w,
+                                ./assets/img/PandaPay-720.png 720w,
+                                ./assets/img/PandaPay-960.png 960w,
+                                ./assets/img/PandaPay-1440.png 1440w,
+                                ./assets/img/PandaPay-1920.png 1920w,"
+                        sizes="(max-width: 480px) 240px,
+                               (max-width: 960px) 480px,
+                               (max-width: 1440px) 960px,
+                               1920px" />
+                        <img src="./assets/img/PandaPay-480.png" alt="logo foxes ninja">
+                    </picture>
+                </div> -->
+            </section>
+        </div>
+        <div id="noticias">
+            <section></section>
         </div>
     </main>
     <footer>
