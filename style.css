@@ -95,23 +95,37 @@ li {
 
 /* footer */
 footer {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     top: 0;
 }
 
-#ft-logo {
+.row li {
+    display: inline;
+}
+
+.grid-container {
+    display: inline-grid;
+}
+
+.grid-item {
+    justify-content: space-between;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+#ft-logo img {
     margin: 10px 35px;
-    float: left;
     height: 75px;
 }
 
-.patrocinadores {
-    max-width: 50px;
+.patrocinadores img {
+    margin: 1.5em 10px;
+    height: 20px;
 }
 
 .redes-sociais {
-    display: block;
     margin: 1.5em 10px;
-    float: right;
     width: 30px;
 }

@@ -1,0 +1,152 @@
+ /* geral */
+ * {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    padding-top: 50px;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+body:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('./assets/img/logo-foxes-1920.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: auto 100vh;
+}
+
+header {
+    background-color: rgba(50,50,50, .1);
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+nav {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+/* nav */
+.nav-itens {
+    margin: 0;
+    padding: 1em 1em 2em 1em;
+    color: rgb(245,245,245);
+    float: right;
+}
+
+#hd-logo {
+    position: absolute;
+    top: .5em;
+    margin-left: 35px;
+    float: left;
+    height: 75px;
+}
+
+/* topo */
+.grid-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.grid-item {
+    max-width: 30vw;
+}
+
+.column {
+    width: 30%;
+}
+
+.hd-logos {
+    max-height: 50px;
+    max-width: 200px;
+    margin-bottom: 50px;
+}
+
+#topo {
+    background-image: linear-gradient(rgba(0, 0, 0, .92) 90%, rgba(130, 35, 0, .95));
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-logo {
+    display: block;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-height: 90vh;
+}
+
+/* notícias */
+#noticias {
+    background-image: linear-gradient(rgba(130, 35, 0, .95), rgba(200, 69, 0, .95) 12%, rgba(200, 69, 0, .9) 80%, rgba(0, 0, 0, 1));
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    top: 0;
+}
+
+.row li {
+    display: inline;
+}
+
+/* .grid-container {
+    display: inline-grid;
+}
+
+.grid-item {
+    justify-content: space-between;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+} */
+
+#ft-logo img {
+    margin: 10px 35px;
+    height: 75px;
+}
+
+.patrocinadores img {
+    margin: 1.5em 10px;
+    height: 20px;
+}
+
+.redes-sociais {
+    margin: 1.5em 10px;
+    width: 30px;
+}
